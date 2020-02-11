@@ -27,7 +27,18 @@ else
 	peso_final = 1000000;
 }
 peso_final = parseInt(peso_final);
-document.write("tu peso en marte es<strong> " + peso_final + " kilos</strong>");
+if (planeta == 1)
+{
+	document.write("tu peso en marte es<strong> " + peso_final + " kilos </strong>");
+}
+else if (planeta == 2)
+{
+	document.write("tu peso en jupiter es<strong> " + peso_final + " kilos </strong>");
+}
+else
+{
+	document.write("elige bien una opcion");
+}
 </script>
 </body>
 </html>
